@@ -1,0 +1,25 @@
+﻿@model DS.CM.LogicaNegocio.Entities.tbl_Cat_Cliente 
+@{
+    ViewBag.Title = Model.Cliente_Nombre;
+}
+
+<ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="~/Clientes/Index/">Volver</a></li>
+    <li class="breadcrumb-item active">@Model.Cliente_Nombre</li>
+</ol>
+<div class="card">
+    <div class="card-header">
+        Información clientes
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-2">Nombre</dt>
+            <dt class="col-sm-10">@Model.Cliente_Nombre</dt>
+            <dt class="col-sm-2">Edad</dt>
+            <dt class="col-sm-10">@Model.Cliente_Edad</dt>
+            <dt class="col-sm-2">Pais</dt>
+            <dt class="col-sm-10">@Model.Cliente_Pais</dt>
+        </dl>
+    </div>
+</div>
+

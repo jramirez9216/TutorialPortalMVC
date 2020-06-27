@@ -1,0 +1,35 @@
+﻿@model List<DS.CM.LogicaNegocio.Entities.tbl_Cat_Cliente>
+
+@{
+    ViewBag.Title = "Clientes";
+}
+<div class="card">
+    <div class="card-header">
+        Clientes
+    </div>
+    <div class="card-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Pais</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var itemCliente in Model)
+                {
+                <tr>
+                    <td>@itemCliente.Cliente_Nombre</td>
+                    <td>@itemCliente.Cliente_Edad</td>
+                    <td>@itemCliente.Cliente_Pais</td>
+                    <td><a class="btn btn-primary btn-sm" href="~/Clientes/Detalle/@itemCliente.Cliente_Id" title="Ver detalle de clientes" >Ver Detalle</a></td>
+                    <td><a class="btn btn-success btn-sm" href="~/Clientes/Registro/@itemCliente.Cliente_Id" title="Editar cliente">Editar</a></td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+

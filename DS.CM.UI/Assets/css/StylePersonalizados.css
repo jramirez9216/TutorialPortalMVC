@@ -1,0 +1,18 @@
+﻿body {
+}
+
+#header{
+    margin-bottom:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    height:136px;
+}
+
+.navbar-expand-lg .navbar-nav li a{
+    color:white;
+}
+
+.activeMenu {
+    background-color: darkred;
+    color: white;
+}

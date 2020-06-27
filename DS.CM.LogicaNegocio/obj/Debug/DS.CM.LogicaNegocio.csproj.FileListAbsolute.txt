@@ -1,0 +1,11 @@
+C:\Users\juan.ramirez.1\source\repos\DS.CM\DS.CM.LogicaNegocio\bin\Debug\DS.CM.LogicaNegocio.dll
+C:\Users\juan.ramirez.1\source\repos\DS.CM\DS.CM.LogicaNegocio\bin\Debug\DS.CM.LogicaNegocio.pdb
+C:\Users\juan.ramirez.1\source\repos\DS.CM\DS.CM.LogicaNegocio\obj\Debug\DS.CM.LogicaNegocio.dll
+C:\Users\juan.ramirez.1\source\repos\DS.CM\DS.CM.LogicaNegocio\obj\Debug\DS.CM.LogicaNegocio.pdb
+C:\Users\juan.ramirez.1\source\repos\DS.CM\DS.CM.LogicaNegocio\bin\Debug\DS.CM.LogicaNegocio.dll.config
+C:\Users\juan.ramirez.1\source\repos\DS.CM\DS.CM.LogicaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\juan.ramirez.1\source\repos\DS.CM\DS.CM.LogicaNegocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\juan.ramirez.1\source\repos\DS.CM\DS.CM.LogicaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\juan.ramirez.1\source\repos\DS.CM\DS.CM.LogicaNegocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\juan.ramirez.1\source\repos\DS.CM\DS.CM.LogicaNegocio\obj\Debug\DS.CM.LogicaNegocio.csproj.CopyComplete
+C:\Users\juan.ramirez.1\source\repos\DS.CM\DS.CM.LogicaNegocio\obj\Debug\DS.CM.LogicaNegocio.csprojAssemblyReference.cache

@@ -1,0 +1,47 @@
+﻿@model DS.CM.LogicaNegocio.Entities.tbl_Cat_Cliente
+@{
+    ViewBag.Title = Model.Cliente_Nombre;
+}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="~/Clientes/Index/">Volver</a></li>
+        <li class="breadcrumb-item active" aria-current="page">@Model.Cliente_Nombre</li>
+    </ol>
+</nav>
+
+@using (Html.BeginForm("Guardar","Clientes", FormMethod.Post))
+{
+    @Html.HiddenFor(x=> x.Cliente_Id)
+    <div class="card">
+        <div class="card-header">
+            Información personal
+            <div class="btn-group float-right" >
+                <button type="submit" class="btn btn-danger" >Guardar</button>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                @Html.Label("Nombre de cliente:", new { @class = "col-lg-2 Control-label" })
+                <div class="col-lg-10">
+                    @Html.TextAreaFor(x => x.Cliente_Nombre, new { @class = "form-control", @placeholder = "Nombre cliente" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.Label("Edad:", new { @class = "col-lg-2 Control-label" })
+                <div class="col-lg-10">
+                    @Html.TextAreaFor(x => x.Cliente_Edad, new { @class = "form-control", @placeholder = "Edad" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.Label("Pais:", new { @class = "col-lg-2 Control-label" })
+                <div class="col-lg-10">
+
+                    @Html.TextAreaFor(x => x.Cliente_Pais, new { @class = "form-control", @placeholder = "Pais" })
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
